@@ -1,0 +1,143 @@
+/* base */
+body {
+  font-size: 16px;
+  /*= 1rem ou 1em */
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  background-color: #F1F4FE;
+  /* background: linear-gradient(to top #F4F4F5, #FFFFFF); */
+  margin: 0;
+}
+
+/* typo générale */
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+}
+/* compartimenter */
+.clearfix {
+  clear: both;
+}
+
+.shadow-light {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+
+/* lien */
+a {
+  text-decoration: none;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a, a:active, a:visited {
+  color: #3d5bf9;
+}
+
+/* titre */
+h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+h2, h3 {
+  font-weight: 700;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #3d5bf9;
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4, h5, h6 {
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+/* mise en page */
+nav ul, footer ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+article, nav {
+  background-color: #FFFFFF;
+}
+
+header {
+  background-color: #D4E2F6;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url('../images/triangle-mosaic.png');
+  background-position: center;
+  /* permet d'agrandir une photo par défaut multiplier
+  background-size: cover; */
+}
+
+header img {
+  width: 17rem;
+  border-radius: 50%;
+}
+
+article {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav, header, article {
+  margin-bottom: 20px;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 0.3rem;
+}
+
+.main-nav  {
+  text-align: center;
+}
+
+section {
+  width: 68%;
+  float: left;
+}
+
+section img {
+  float: right;
+  width: 9rem
+}
+
+aside {
+  width: 30%;
+  float: right;
+}
+
+footer {
+  background-color: #CBDCF5;
+}
